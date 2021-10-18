@@ -16,7 +16,7 @@ class CreateVoicecontentsTable extends Migration
         Schema::create('voicecontents', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id');
-            $table->integer('voicecontent');
+            $table->integer('voicecontent_id');
             $table->timestamps();
         });
     }
