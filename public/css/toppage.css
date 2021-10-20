@@ -1,0 +1,84 @@
+header{
+    background-color: rgb(56, 56, 248);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 36px;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav > li >a {
+    color:  white;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+} 
+
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+body{
+    height: 100%;
+    background-color: #E6ECF0;
+}
+
+.wrapper{
+    width: 50%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+
+}
+
+.post-box{
+    background-color: #2695E0;
+    text-align: center;
+}
+
+.post-box > input{
+    margin: 1rem;
+    padding: 0 1rem;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    height: 2.3rem;
+}
+
+.submit-btn{
+    background-color: rgb(255, 172, 19);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border:none;
+}
+*/

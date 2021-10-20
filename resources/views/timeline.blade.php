@@ -18,9 +18,13 @@
         </form>
 
         <div class="voice-wrapper">
-            <div class="voice-box">
-    
-            </div>
+            @if(isset($voice))
+                @forearch($voices as $voice)
+                    <div class="voice-box">
+                        <div>{{ $voice -> voice }}</div>
+                    </div>
+                @endforearch
+            @endisset
         </div>
     </div>
 

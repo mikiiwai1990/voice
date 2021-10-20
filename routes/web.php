@@ -23,3 +23,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/timeline', 'VoiceController@showTimeLinePage')->name('timeline');
 Route::post('/timeline', 'VoiceController@postvoicecontent');
+
+Route::get('/toppage', 'TopPageController@showTopPage')->name('toppage');
